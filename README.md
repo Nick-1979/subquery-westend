@@ -1,3 +1,3 @@
-# PolkaGate - Kusama subQueries
+# PolkaGate - Westend subQueries
 
 
