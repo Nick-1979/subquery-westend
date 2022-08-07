@@ -9,7 +9,7 @@ runner:
     name: "@subql/query"
     version: "*"
 description: This project can be used to query westend chain
-repository: "https://github.com/PolkaGate/subquery-westend"
+repository: "https://github.com/Nick-1979/subquery-westend"
 schema:
   file: ./schema.graphql
 network:
