@@ -7,3 +7,5 @@ export SUBQL_ACCESS_TOKEN=NDY0NDI0NTI=lFqQCTp9g7C96XdkOapV
 // Publish it from your project's root directory
 
 subql publish // or yarn publish
+
+QmV2LkP7rqvMSkqN28kWzVFRSdMTNbiW4Z7fEYbMepMAeu
