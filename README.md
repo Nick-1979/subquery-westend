@@ -1,3 +1,3 @@
-# PolkaGate - Westend subQueries
+# Westend subQueries
 
 

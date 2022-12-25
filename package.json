@@ -1,17 +1,18 @@
 {
-  "name": "polkaate",
-  "version": "1.0.0",
-  "description": "This project can be used to query kusama chain",
+  "name": "query_westend",
+  "version": "0.0.3",
+  "description": "This project can be used to query westend chain",
   "main": "dist/index.js",
   "scripts": {
-    "build": "tsc -b",
+    "build": "subql build",
+    "publish": "subql publish",
     "prepack": "rm -rf dist && npm run build",
     "test": "jest",
     "codegen": "./node_modules/.bin/subql codegen",
     "start:docker": "docker-compose pull && docker-compose up"
   },
-  "homepage": "https://github.com/subquery/subql-starter",
-  "repository": "github:subquery/subql-starter",
+  "homepage": "https://github.com/Nick-1979/subquery-westend",
+  "repository": "github:Nick-1979/subquery-westend",
   "files": [
     "dist",
     "schema.graphql",
@@ -20,7 +21,7 @@
   "author": "Kami Ekbatanifard",
   "license": "MIT",
   "devDependencies": {
-    "@polkadot/api": "^8",
+    "@polkadot/api": "latest",
     "@subql/cli": "latest",
     "@subql/types": "latest",
     "typescript": "^4.1.3"
